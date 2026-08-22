@@ -1,0 +1,39 @@
+Create a Bible study guide from the KJV (King James Version) for BOOK CHAPTER.
+
+Requirements:
+
+1. Use ONLY the KJV Bible text as the source.
+2. Create exactly 3 questions for EVERY verse in the chapter.
+3. Questions should be simple, direct, and based only on the wording of the verse.
+4. Do not create opinion, application, or doctrinal questions.
+5. Answers must be short and taken directly from the verse whenever possible.
+6. Include the verse reference with every question.
+7. Output in Markdown format.
+8. Use the following format exactly:
+
+# BOOK CHAPTER Study Questions (KJV)
+
+---
+
+### BOOK CHAPTER:VERSE
+
+**Q1. Question?**  
+**Answer:** Answer.  
+**Verse:** BOOK CHAPTER:VERSE
+
+**Q2. Question?**  
+**Answer:** Answer.  
+**Verse:** BOOK CHAPTER:VERSE
+
+**Q3. Question?**  
+**Answer:** Answer.  
+**Verse:** BOOK CHAPTER:VERSE
+
+---
+
+9. Continue until every verse in the chapter has exactly 3 questions.
+10. Number the questions consecutively throughout the entire chapter.
+11. If the output is too long for one response, stop at a logical point and wait for me to say "Continue" before generating the next section.
+12. Do not include the full Bible verse text unless specifically requested.
+
+Generate the questions for BOOK CHAPTER.

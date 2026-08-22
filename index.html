@@ -1,0 +1,911 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bible Study Quiz</title>
+  <style>
+    :root {
+      --bg-top: #f7f3e8;
+      --bg-bottom: #e5efe8;
+      --card: #ffffff;
+      --ink: #1f2a25;
+      --muted: #57645d;
+      --accent: #1d6f5f;
+      --accent-strong: #145346;
+      --focus: #ff9b42;
+      --warning-bg: #fff4de;
+      --warning-border: #e7b96c;
+      --error-bg: #ffe5e5;
+      --error-border: #dd6b6b;
+      --shadow: 0 18px 45px rgba(31, 42, 37, 0.14);
+      --radius: 18px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at 12% 18%, rgba(255, 255, 255, 0.65), rgba(255, 255, 255, 0) 45%),
+        radial-gradient(circle at 88% 86%, rgba(29, 111, 95, 0.12), rgba(29, 111, 95, 0) 42%),
+        linear-gradient(160deg, var(--bg-top), var(--bg-bottom));
+      font-family: "Segoe UI", "Noto Sans", "Helvetica Neue", sans-serif;
+      line-height: 1.5;
+      padding: 20px;
+      display: grid;
+      place-items: center;
+    }
+
+    main {
+      width: min(860px, 100%);
+    }
+
+    .card {
+      background: var(--card);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      border: 1px solid rgba(31, 42, 37, 0.08);
+      overflow: hidden;
+    }
+
+    .card-inner {
+      padding: clamp(18px, 3vw, 34px);
+    }
+
+    .top-actions {
+      display: flex;
+      justify-content: flex-end;
+      margin-bottom: 10px;
+    }
+
+    .home-btn {
+      width: auto;
+      min-width: 180px;
+      padding: 10px 14px;
+      background: #ffffff;
+      color: var(--ink);
+      border: 1px solid rgba(31, 42, 37, 0.25);
+      font-weight: 700;
+    }
+
+    .home-btn:hover:not(:disabled) {
+      background: #f3f6f4;
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: clamp(1.7rem, 4vw, 2.4rem);
+      line-height: 1.2;
+      letter-spacing: 0.01em;
+    }
+
+    h2 {
+      margin: 0 0 10px;
+      font-size: clamp(1.15rem, 2.4vw, 1.45rem);
+    }
+
+    p {
+      margin: 0 0 12px;
+      color: var(--muted);
+      font-size: clamp(1rem, 2.4vw, 1.08rem);
+    }
+
+    .instruction {
+      margin: 12px 0 20px;
+      padding: 12px 14px;
+      border-radius: 12px;
+      background: rgba(29, 111, 95, 0.08);
+      color: #224338;
+      border: 1px solid rgba(29, 111, 95, 0.22);
+      font-size: 0.98rem;
+    }
+
+    .row {
+      display: grid;
+      gap: 12px;
+      margin-bottom: 16px;
+    }
+
+    label {
+      font-weight: 600;
+      color: var(--ink);
+      display: block;
+      margin-bottom: 6px;
+    }
+
+    input[type="file"],
+    select,
+    button {
+      width: 100%;
+      border-radius: 12px;
+      border: 1px solid rgba(31, 42, 37, 0.25);
+      font-size: 1rem;
+      padding: 12px 14px;
+      background: #fff;
+      color: var(--ink);
+    }
+
+    button {
+      cursor: pointer;
+      border: none;
+      font-weight: 700;
+      background: var(--accent);
+      color: #fff;
+      transition: transform 0.06s ease, background 0.2s ease, opacity 0.2s ease;
+    }
+
+    button:hover:not(:disabled) {
+      background: var(--accent-strong);
+    }
+
+    button:active:not(:disabled) {
+      transform: translateY(1px);
+    }
+
+    button:disabled {
+      cursor: not-allowed;
+      opacity: 0.5;
+    }
+
+    .secondary {
+      background: #ffffff;
+      color: var(--ink);
+      border: 1px solid rgba(31, 42, 37, 0.25);
+    }
+
+    .secondary:hover:not(:disabled) {
+      background: #f3f6f4;
+    }
+
+    input:focus-visible,
+    select:focus-visible,
+    button:focus-visible {
+      outline: 3px solid var(--focus);
+      outline-offset: 2px;
+    }
+
+    .status {
+      margin-top: 8px;
+      min-height: 24px;
+      font-weight: 600;
+      color: var(--muted);
+    }
+
+    .warning,
+    .error {
+      margin: 14px 0;
+      padding: 12px 14px;
+      border-radius: 12px;
+      font-size: 0.95rem;
+    }
+
+    .warning {
+      background: var(--warning-bg);
+      border: 1px solid var(--warning-border);
+      color: #6f4e1b;
+    }
+
+    .error {
+      background: var(--error-bg);
+      border: 1px solid var(--error-border);
+      color: #6d1f1f;
+    }
+
+    .hidden {
+      display: none !important;
+    }
+
+    .quiz-head {
+      display: grid;
+      gap: 4px;
+      margin-bottom: 20px;
+    }
+
+    .progress {
+      color: var(--muted);
+      font-weight: 700;
+      letter-spacing: 0.02em;
+      font-size: 0.95rem;
+    }
+
+    .verse {
+      font-size: clamp(1.2rem, 3vw, 1.5rem);
+      font-weight: 700;
+      color: var(--accent-strong);
+    }
+
+    .question {
+      font-size: clamp(1.1rem, 2.6vw, 1.35rem);
+      font-weight: 600;
+      margin-bottom: 16px;
+      color: var(--ink);
+    }
+
+    .answer {
+      border-left: 4px solid var(--accent);
+      background: rgba(29, 111, 95, 0.08);
+      border-radius: 10px;
+      padding: 12px 14px;
+      margin-bottom: 18px;
+      font-size: clamp(1rem, 2.5vw, 1.2rem);
+      color: var(--ink);
+    }
+
+    .actions {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+
+    @media (max-width: 640px) {
+      .actions {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="card" aria-live="polite">
+      <div class="card-inner">
+        <div class="top-actions">
+          <button id="home-btn" class="home-btn" type="button">Return to Start Page</button>
+        </div>
+
+        <h1>Bible Study Quiz</h1>
+        <p>Study one verse at a time by revealing each answer before continuing.</p>
+
+        <div id="selection-screen">
+          <p class="instruction">
+            This page runs directly from index.html with file://, so it cannot scan folders automatically.
+            Please choose your md-files folder using the picker below.
+          </p>
+
+          <p class="instruction" aria-live="polite">
+            Windows browser note: in folder-upload mode, the file list area can appear empty.
+            Select the md-files folder itself and click Upload to continue.
+          </p>
+
+          <div class="row">
+            <label for="folder-picker">1) Select folder</label>
+            <input id="folder-picker" type="file" webkitdirectory multiple />
+          </div>
+
+          <div class="row">
+            <label for="file-select">2) Select chapter file (.md)</label>
+            <select id="file-select" disabled>
+              <option value="">Choose a folder first...</option>
+            </select>
+          </div>
+
+          <div class="row">
+            <label for="group-select">3) Select verse group</label>
+            <select id="group-select" disabled>
+              <option value="">Choose a chapter file first...</option>
+            </select>
+          </div>
+
+          <div class="row">
+            <button id="start-quiz-btn" disabled>Start Quiz</button>
+          </div>
+
+          <div id="selection-message" class="status" role="status"></div>
+          <div id="selection-error" class="error hidden" role="alert"></div>
+          <div id="selection-warning" class="warning hidden" role="status"></div>
+        </div>
+
+        <div id="quiz-screen" class="hidden">
+          <div class="quiz-head">
+            <div id="quiz-progress" class="progress"></div>
+            <div id="quiz-verse" class="verse"></div>
+          </div>
+
+          <div id="quiz-question" class="question"></div>
+          <div id="quiz-answer" class="answer hidden"></div>
+
+          <div class="actions">
+            <button id="show-answer-btn">Show Answer</button>
+            <button id="next-btn" disabled>Next</button>
+          </div>
+
+          <div id="quiz-warning" class="warning hidden" role="status"></div>
+        </div>
+
+        <div id="completion-screen" class="hidden">
+          <h2>Quiz Complete</h2>
+          <p>You have finished this study pass.</p>
+          <div class="actions">
+            <button id="restart-btn">Restart Quiz</button>
+            <button id="choose-file-btn" class="secondary">Choose Another File</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    (function () {
+      "use strict";
+
+      // Centralized DOM references for all screens and controls.
+      const ui = {
+        selectionScreen: document.getElementById("selection-screen"),
+        quizScreen: document.getElementById("quiz-screen"),
+        completionScreen: document.getElementById("completion-screen"),
+        folderPicker: document.getElementById("folder-picker"),
+        fileSelect: document.getElementById("file-select"),
+        groupSelect: document.getElementById("group-select"),
+        startQuizBtn: document.getElementById("start-quiz-btn"),
+        selectionMessage: document.getElementById("selection-message"),
+        selectionError: document.getElementById("selection-error"),
+        selectionWarning: document.getElementById("selection-warning"),
+        quizProgress: document.getElementById("quiz-progress"),
+        quizVerse: document.getElementById("quiz-verse"),
+        quizQuestion: document.getElementById("quiz-question"),
+        quizAnswer: document.getElementById("quiz-answer"),
+        showAnswerBtn: document.getElementById("show-answer-btn"),
+        nextBtn: document.getElementById("next-btn"),
+        quizWarning: document.getElementById("quiz-warning"),
+        restartBtn: document.getElementById("restart-btn"),
+        chooseFileBtn: document.getElementById("choose-file-btn"),
+        homeBtn: document.getElementById("home-btn")
+      };
+
+      const state = {
+        markdownFiles: [],
+        selectedFileIndex: -1,
+        selectedFileData: null,
+        verseGroups: [],
+        selectedGroupIndex: 0,
+        currentQuiz: [],
+        currentIndex: 0
+      };
+
+      ui.folderPicker.addEventListener("change", onFolderSelected);
+      ui.fileSelect.addEventListener("change", onFileSelectionChanged);
+      ui.groupSelect.addEventListener("change", onGroupSelectionChanged);
+      ui.startQuizBtn.addEventListener("click", onStartQuiz);
+      ui.showAnswerBtn.addEventListener("click", onShowAnswer);
+      ui.nextBtn.addEventListener("click", onNextQuestion);
+      ui.restartBtn.addEventListener("click", onRestartQuiz);
+      ui.chooseFileBtn.addEventListener("click", onChooseAnotherFile);
+      ui.homeBtn.addEventListener("click", onReturnToStartPage);
+
+      function onFolderSelected(event) {
+        clearSelectionFeedback();
+        clearQuizWarning();
+
+        // Directory picker returns files recursively; filter only markdown files.
+        const fileList = Array.from(event.target.files || []);
+        const markdownFiles = fileList
+          .filter((file) => /\.md$/i.test(file.name))
+          .sort((a, b) => {
+            const pathA = getDisplayPath(a).toLowerCase();
+            const pathB = getDisplayPath(b).toLowerCase();
+            return pathA.localeCompare(pathB);
+          });
+
+        state.markdownFiles = markdownFiles;
+        state.selectedFileIndex = -1;
+        state.selectedFileData = null;
+        resetVerseGroups();
+
+        if (markdownFiles.length === 0) {
+          ui.fileSelect.innerHTML = "";
+          addOption(ui.fileSelect, "", "No Markdown files found");
+          ui.fileSelect.disabled = true;
+          ui.startQuizBtn.disabled = true;
+          showSelectionError("No .md files were found in the selected folder. Please select the md-files folder that contains your study files.");
+          return;
+        }
+
+        ui.fileSelect.innerHTML = "";
+        addOption(ui.fileSelect, "", "Select a Markdown file...");
+        markdownFiles.forEach((file, index) => {
+          addOption(ui.fileSelect, String(index), getDisplayPath(file));
+        });
+
+        ui.fileSelect.disabled = false;
+        ui.startQuizBtn.disabled = true;
+        ui.selectionMessage.textContent = markdownFiles.length + " Markdown file(s) found.";
+      }
+
+      async function onFileSelectionChanged() {
+        clearSelectionFeedback();
+        clearQuizWarning();
+
+        const index = Number(ui.fileSelect.value);
+        if (!Number.isInteger(index) || index < 0 || index >= state.markdownFiles.length) {
+          state.selectedFileIndex = -1;
+          state.selectedFileData = null;
+          resetVerseGroups();
+          ui.startQuizBtn.disabled = true;
+          return;
+        }
+
+        state.selectedFileIndex = index;
+        ui.startQuizBtn.disabled = true;
+        ui.selectionMessage.textContent = "Loading chapter file...";
+
+        const file = state.markdownFiles[index];
+
+        try {
+          const rawContent = await file.text();
+          // Parse immediately so verse groups can be populated before quiz start.
+          const parsed = parseMarkdownStudy(rawContent);
+
+          if (parsed.verses.length === 0) {
+            state.selectedFileData = null;
+            resetVerseGroups();
+            showSelectionError("No valid questions were found in this file. Make sure it includes lines for question, answer, and verse.");
+            return;
+          }
+
+          state.selectedFileData = parsed;
+          populateVerseGroups(parsed.verses);
+          ui.startQuizBtn.disabled = false;
+          ui.selectionMessage.textContent = "Ready to start: " + getDisplayPath(file);
+
+          if (parsed.warnings.length > 0) {
+            showSelectionWarning(parsed.warnings.join(" "));
+          }
+        } catch (error) {
+          state.selectedFileData = null;
+          resetVerseGroups();
+          ui.startQuizBtn.disabled = true;
+          showSelectionError("Could not read or parse the selected file. Please try another file.");
+        }
+      }
+
+      function onGroupSelectionChanged() {
+        const groupIndex = Number(ui.groupSelect.value);
+        if (!Number.isInteger(groupIndex) || groupIndex < 0 || groupIndex >= state.verseGroups.length) {
+          state.selectedGroupIndex = 0;
+          return;
+        }
+
+        state.selectedGroupIndex = groupIndex;
+      }
+
+      async function onStartQuiz() {
+        clearSelectionFeedback();
+        clearQuizWarning();
+
+        if (state.selectedFileIndex < 0 || state.selectedFileIndex >= state.markdownFiles.length) {
+          showSelectionError("Please select a Markdown file before starting the quiz.");
+          return;
+        }
+
+        // Defensive fallback if parsed data was cleared or not loaded yet.
+        if (!state.selectedFileData) {
+          const file = state.markdownFiles[state.selectedFileIndex];
+          try {
+            const rawContent = await file.text();
+            const parsed = parseMarkdownStudy(rawContent);
+            if (parsed.verses.length === 0) {
+              showSelectionError("No valid questions were found in this file. Make sure it includes lines for question, answer, and verse.");
+              return;
+            }
+            state.selectedFileData = parsed;
+            populateVerseGroups(parsed.verses);
+          } catch (error) {
+            showSelectionError("Could not read or parse the selected file. Please try another file.");
+            return;
+          }
+        }
+
+        buildQuizFromParsedData();
+        startQuizSession();
+
+        if (state.selectedFileData.warnings.length > 0) {
+          showQuizWarning(state.selectedFileData.warnings.join(" "));
+        }
+      }
+
+      function resetVerseGroups() {
+        state.verseGroups = [];
+        state.selectedGroupIndex = 0;
+        ui.groupSelect.innerHTML = "";
+        addOption(ui.groupSelect, "", "Choose a chapter file first...");
+        ui.groupSelect.disabled = true;
+      }
+
+      function populateVerseGroups(verses) {
+        state.verseGroups = buildVerseGroups(verses);
+        state.selectedGroupIndex = 0;
+
+        ui.groupSelect.innerHTML = "";
+        state.verseGroups.forEach((group, index) => {
+          addOption(ui.groupSelect, String(index), group.label);
+        });
+
+        ui.groupSelect.disabled = state.verseGroups.length === 0;
+        ui.groupSelect.value = state.verseGroups.length > 0 ? "0" : "";
+      }
+
+      function buildVerseGroups(verses) {
+        const groups = [];
+        const allIndices = verses.map((_, index) => index);
+
+        groups.push({
+          label: "All verses",
+          indices: allIndices
+        });
+
+        const parsedNumbers = verses.map((verseBlock) => extractVerseNumber(verseBlock.verse));
+        const allNumbered = parsedNumbers.every((num) => Number.isInteger(num));
+
+        // Preferred grouping: use real verse numbers from references like "Proverbs 21:14".
+        if (allNumbered) {
+          const decadeMap = new Map();
+          const decadeOrder = [];
+
+          parsedNumbers.forEach((verseNumber, index) => {
+            const start = Math.floor((verseNumber - 1) / 10) * 10 + 1;
+            const key = String(start);
+
+            if (!decadeMap.has(key)) {
+              decadeMap.set(key, []);
+              decadeOrder.push(key);
+            }
+            decadeMap.get(key).push(index);
+          });
+
+          decadeOrder.forEach((key) => {
+            const indices = decadeMap.get(key) || [];
+            if (!indices.length) {
+              return;
+            }
+
+            const firstNumber = parsedNumbers[indices[0]];
+            const lastNumber = parsedNumbers[indices[indices.length - 1]];
+
+            groups.push({
+              label: "Verses " + firstNumber + "-" + lastNumber,
+              indices: indices
+            });
+          });
+
+          return groups;
+        }
+
+        // Fallback grouping by appearance order when verse numbers are unavailable.
+        for (let startIndex = 0; startIndex < verses.length; startIndex += 10) {
+          const endIndex = Math.min(startIndex + 10, verses.length);
+          const indices = [];
+          for (let i = startIndex; i < endIndex; i += 1) {
+            indices.push(i);
+          }
+
+          groups.push({
+            label: "Verses " + (startIndex + 1) + "-" + endIndex + " (in order)",
+            indices: indices
+          });
+        }
+
+        return groups;
+      }
+
+      function extractVerseNumber(verseRef) {
+        const match = String(verseRef || "").match(/:(\d+)\s*$/);
+        if (!match) {
+          return null;
+        }
+
+        const number = Number(match[1]);
+        return Number.isInteger(number) ? number : null;
+      }
+
+      function onShowAnswer() {
+        const item = state.currentQuiz[state.currentIndex];
+        if (!item) {
+          return;
+        }
+
+        ui.quizAnswer.textContent = "Answer: " + item.answer;
+        ui.quizAnswer.classList.remove("hidden");
+        ui.nextBtn.disabled = false;
+      }
+
+      function onNextQuestion() {
+        if (ui.nextBtn.disabled) {
+          return;
+        }
+
+        const isLast = state.currentIndex >= state.currentQuiz.length - 1;
+        if (isLast) {
+          showCompletionScreen();
+          return;
+        }
+
+        state.currentIndex += 1;
+        renderCurrentQuestion();
+      }
+
+      function onRestartQuiz() {
+        if (!state.selectedFileData) {
+          showSelectionScreen();
+          return;
+        }
+
+        clearQuizWarning();
+        buildQuizFromParsedData();
+        startQuizSession();
+
+        if (state.selectedFileData.warnings.length > 0) {
+          showQuizWarning(state.selectedFileData.warnings.join(" "));
+        }
+      }
+
+      function onChooseAnotherFile() {
+        showSelectionScreen();
+      }
+
+      function onReturnToStartPage() {
+        showSelectionScreen();
+      }
+
+      function buildQuizFromParsedData() {
+        const parsed = state.selectedFileData;
+        const verseGroup = state.verseGroups[state.selectedGroupIndex] || state.verseGroups[0] || null;
+        const selectedIndices = verseGroup ? verseGroup.indices : [];
+        const quizItems = [];
+
+        // Exactly one random question is chosen per verse in the selected group.
+        for (const index of selectedIndices) {
+          const verseBlock = parsed.verses[index];
+          if (!verseBlock) {
+            continue;
+          }
+          if (!verseBlock.questions || verseBlock.questions.length === 0) {
+            continue;
+          }
+          const randomQuestion = pickRandomItem(verseBlock.questions);
+          quizItems.push({
+            verse: verseBlock.verse,
+            question: randomQuestion.question,
+            answer: randomQuestion.answer,
+            qNumber: randomQuestion.qNumber
+          });
+        }
+
+        state.currentQuiz = quizItems;
+      }
+
+      function startQuizSession() {
+        if (!state.currentQuiz.length) {
+          showSelectionError("No valid questions are available for quiz mode in this file.");
+          showSelectionScreen();
+          return;
+        }
+
+        state.currentIndex = 0;
+        showQuizScreen();
+        renderCurrentQuestion();
+      }
+
+      function renderCurrentQuestion() {
+        const item = state.currentQuiz[state.currentIndex];
+        const total = state.currentQuiz.length;
+        const currentNumber = state.currentIndex + 1;
+
+        ui.quizProgress.textContent = "Verse " + currentNumber + " of " + total;
+        ui.quizVerse.textContent = item.verse;
+        ui.quizQuestion.textContent = item.question;
+        ui.quizAnswer.textContent = "";
+        ui.quizAnswer.classList.add("hidden");
+
+        ui.showAnswerBtn.disabled = false;
+        ui.nextBtn.disabled = true;
+        ui.nextBtn.textContent = currentNumber === total ? "Finish" : "Next";
+      }
+
+      function parseMarkdownStudy(rawText) {
+        // Remove possible editor/export HTML artifacts before line-by-line markdown parsing.
+        const cleanedText = stripHtmlArtifacts(rawText || "");
+        const lines = normalizeLines(cleanedText);
+
+        const verseOrder = [];
+        const verseMap = new Map();
+        const warnings = [];
+
+        let pendingQuestion = null;
+
+        for (const originalLine of lines) {
+          const line = cleanMarkdownLine(originalLine);
+          if (!line || isHorizontalRule(line)) {
+            continue;
+          }
+
+          const headingMatch = line.match(/^###\s+(.+)$/);
+          if (headingMatch) {
+            const headingVerse = collapseWhitespace(headingMatch[1]);
+            if (headingVerse && !verseOrder.includes(headingVerse)) {
+              verseOrder.push(headingVerse);
+            }
+            continue;
+          }
+
+          // Accept question numbers with any digits: Q1, Q25, Q300, etc.
+          const questionMatch = line.match(/^\*\*Q(\d+)\.\s*(.*?)\*\*$/i);
+          if (questionMatch) {
+            pendingQuestion = {
+              qNumber: Number(questionMatch[1]),
+              question: collapseWhitespace(questionMatch[2]),
+              answer: "",
+              verse: ""
+            };
+            continue;
+          }
+
+          const answerMatch = line.match(/^\*\*Answer:\*\*\s*(.+)$/i);
+          if (answerMatch) {
+            if (pendingQuestion) {
+              pendingQuestion.answer = collapseWhitespace(answerMatch[1]);
+            }
+            continue;
+          }
+
+          const verseMatch = line.match(/^\*\*Verse:\*\*\s*(.+)$/i);
+          if (verseMatch) {
+            if (!pendingQuestion) {
+              continue;
+            }
+
+            pendingQuestion.verse = collapseWhitespace(verseMatch[1]);
+
+            if (isCompleteQuestion(pendingQuestion)) {
+              addQuestionToVerseMap(pendingQuestion, verseMap, verseOrder);
+            }
+
+            pendingQuestion = null;
+          }
+        }
+
+        const verses = [];
+        for (const verse of verseOrder) {
+          const list = verseMap.get(verse) || [];
+          if (list.length === 0) {
+            continue;
+          }
+          if (list.length !== 3) {
+            warnings.push("Warning: " + verse + " has " + list.length + " valid question(s), not exactly 3.");
+          }
+          verses.push({ verse: verse, questions: list });
+        }
+
+        return { verses: verses, warnings: warnings };
+      }
+
+      function addQuestionToVerseMap(questionObj, verseMap, verseOrder) {
+        const verse = questionObj.verse;
+        if (!verseMap.has(verse)) {
+          verseMap.set(verse, []);
+        }
+
+        const bucket = verseMap.get(verse);
+        bucket.push({
+          qNumber: questionObj.qNumber,
+          question: questionObj.question,
+          answer: questionObj.answer
+        });
+
+        if (!verseOrder.includes(verse)) {
+          verseOrder.push(verse);
+        }
+      }
+
+      function isCompleteQuestion(item) {
+        return Boolean(item && item.question && item.answer && item.verse);
+      }
+
+      function stripHtmlArtifacts(text) {
+        // Convert common line-break tags first so textContent preserves structure.
+        const withLineBreaks = String(text)
+          .replace(/<br\s*\/?\s*>/gi, "\n")
+          .replace(/<\/p\s*>/gi, "\n")
+          .replace(/<\/div\s*>/gi, "\n");
+
+        const parser = new DOMParser();
+        const doc = parser.parseFromString(withLineBreaks, "text/html");
+        return doc.body ? doc.body.textContent || "" : withLineBreaks;
+      }
+
+      function normalizeLines(text) {
+        return String(text).replace(/\r\n?/g, "\n").split("\n");
+      }
+
+      function cleanMarkdownLine(line) {
+        return collapseWhitespace(String(line).replace(/\u00A0/g, " ").trim());
+      }
+
+      function collapseWhitespace(text) {
+        return String(text).replace(/\s+/g, " ").trim();
+      }
+
+      function isHorizontalRule(line) {
+        return /^-{3,}$/.test(line.trim());
+      }
+
+      function pickRandomItem(items) {
+        const index = Math.floor(Math.random() * items.length);
+        return items[index];
+      }
+
+      function addOption(select, value, label) {
+        const option = document.createElement("option");
+        option.value = value;
+        option.textContent = label;
+        select.appendChild(option);
+      }
+
+      function getDisplayPath(file) {
+        return file.webkitRelativePath || file.name;
+      }
+
+      function showSelectionError(message) {
+        ui.selectionError.textContent = message;
+        ui.selectionError.classList.remove("hidden");
+      }
+
+      function showSelectionWarning(message) {
+        ui.selectionWarning.textContent = message;
+        ui.selectionWarning.classList.remove("hidden");
+      }
+
+      function showQuizWarning(message) {
+        ui.quizWarning.textContent = message;
+        ui.quizWarning.classList.remove("hidden");
+      }
+
+      function clearSelectionFeedback() {
+        ui.selectionMessage.textContent = "";
+        ui.selectionError.textContent = "";
+        ui.selectionWarning.textContent = "";
+        ui.selectionError.classList.add("hidden");
+        ui.selectionWarning.classList.add("hidden");
+      }
+
+      function clearQuizWarning() {
+        ui.quizWarning.textContent = "";
+        ui.quizWarning.classList.add("hidden");
+      }
+
+      function showSelectionScreen() {
+        ui.selectionScreen.classList.remove("hidden");
+        ui.quizScreen.classList.add("hidden");
+        ui.completionScreen.classList.add("hidden");
+
+        if (state.markdownFiles.length > 0) {
+          const selectedFile = state.selectedFileIndex >= 0
+            ? getDisplayPath(state.markdownFiles[state.selectedFileIndex])
+            : "No file selected.";
+          ui.selectionMessage.textContent = "Available files loaded. Current selection: " + selectedFile;
+          if (state.selectedFileIndex < 0) {
+            showSelectionWarning("Select a Markdown file, then click Start Quiz.");
+          }
+        }
+      }
+
+      function showQuizScreen() {
+        ui.selectionScreen.classList.add("hidden");
+        ui.quizScreen.classList.remove("hidden");
+        ui.completionScreen.classList.add("hidden");
+      }
+
+      function showCompletionScreen() {
+        ui.selectionScreen.classList.add("hidden");
+        ui.quizScreen.classList.add("hidden");
+        ui.completionScreen.classList.remove("hidden");
+      }
+
+      resetVerseGroups();
+    })();
+  </script>
+</body>
+</html>
