@@ -74,20 +74,6 @@ How to use it:
 - Files are read locally from the folder you select.
 - No network upload is required by the app.
 
-## GitHub publish checklist
-- [ ] Verify `index.html` works by double-clicking it.
-- [ ] Verify chapter files load from `md-files`.
-- [ ] Remove any temporary test files.
-- [ ] Choose a license (MIT or other) before making the repo public.
-- [ ] Add a screenshot or GIF in this README (optional but recommended).
-- [ ] Commit and push.
-
-## Suggested first commit commands
-```bash
-git add .
-git commit -m "Add offline Bible study quiz app and chapter markdown files"
-git push
-```
 
 ## More help
 See `HELP.md` for a full explanation of the app behavior and troubleshooting.
