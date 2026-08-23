@@ -35,5 +35,7 @@ Requirements:
 10. Number the questions consecutively throughout the entire chapter.
 11. If the output is too long for one response, stop at a logical point and wait for me to say "Continue" before generating the next section.
 12. Do not include the full Bible verse text unless specifically requested.
+13. Include a recommended file name at the end using this naming standard: BookNameChapterStudyQuestions.md
+14. Use no spaces in the file name and use numeric prefixes for numbered books (for example, 1John, 2John, 3John).
 
 Generate the questions for BOOK CHAPTER.

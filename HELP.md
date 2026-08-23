@@ -14,7 +14,7 @@ The app reads your local Markdown chapter files from a selected folder, then cre
 
 ## How it works
 1. You open `index.html` by double-clicking it.
-2. You select the `md-files` folder using the folder picker.
+2. You select the top-level `md-files` folder using the folder picker.
 3. The app finds all `.md` files and lists them.
 4. You choose a chapter file and (optionally) a verse group.
 5. The app parses question blocks from the markdown.
@@ -60,8 +60,32 @@ That is why the app uses a folder picker and waits for you to click Upload.
 
 ## File overview
 - `index.html`: Entire app (UI, parser, quiz logic).
-- `md-files/`: Study content markdown files.
+- `md-files/`: Study content markdown files organized by one folder per Bible book.
 - `AI-Prompt.txt`: Prompt template used to generate chapter questions.
+
+## Book folder organization
+The `md-files` directory now includes a folder for each book of the Bible.
+
+Examples:
+- `md-files/Proverbs/Proverbs21StudyQuestions.md`
+- `md-files/3 John/3John1StudyQuestions.md`
+
+When adding new files, save each chapter file inside its matching book folder.
+
+## Standard file naming convention
+Use this format for chapter markdown files:
+
+- `BookNameChapterStudyQuestions.md`
+
+Examples:
+- `Proverbs21StudyQuestions.md`
+- `3John1StudyQuestions.md`
+
+Reminder:
+- Keep `.md` extension.
+- Do not use spaces in filenames.
+- Use numeric prefixes for numbered books (`1John`, `2John`, `3John`).
+- Place the file in the matching book folder under `md-files`.
 
 ## AI-Prompt.txt usage
 `AI-Prompt.txt` is a reusable generation template that helps you create new chapter files in the exact format this app expects.
@@ -70,10 +94,8 @@ How to use it:
 1. Open `AI-Prompt.txt`.
 2. Replace BOOK CHAPTER with your target chapter, for example Proverbs 25.
 3. Submit the prompt in your AI assistant.
-4. Save the output markdown file in `md-files`.
-5. Confirm question numbering is consecutive and each verse has 3 questions.
+4. Save the output markdown file inside the correct book folder under `md-files`.
+5. Example: `md-files/Proverbs/Proverbs25StudyQuestions.md`.
+6. Confirm question numbering is consecutive and each verse has 3 questions.
 
-## Before publishing updates
-- Test by opening `index.html` and running one full quiz.
-- Confirm new markdown files appear and parse correctly.
-- Keep question numbering consecutive in each chapter file.
+
