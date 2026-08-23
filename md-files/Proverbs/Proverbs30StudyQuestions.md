@@ -1,4 +1,4 @@
-# Proverbs 30 Study Questions (KJV)
+﻿# Proverbs 30 Study Questions (KJV)
 
 ---
 

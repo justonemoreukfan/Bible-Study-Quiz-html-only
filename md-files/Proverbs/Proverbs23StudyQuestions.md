@@ -1,4 +1,4 @@
-# Proverbs 23 Study Questions (KJV)
+﻿# Proverbs 23 Study Questions (KJV)
 
 ---
 

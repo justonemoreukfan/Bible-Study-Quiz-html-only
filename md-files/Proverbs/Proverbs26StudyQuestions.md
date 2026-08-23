@@ -1,4 +1,4 @@
-# Proverbs 26 Study Questions (KJV)
+﻿# Proverbs 26 Study Questions (KJV)
 
 ---
 

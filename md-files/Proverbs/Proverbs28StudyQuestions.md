@@ -1,4 +1,4 @@
-# Proverbs 28 Study Questions (KJV)
+﻿# Proverbs 28 Study Questions (KJV)
 
 ---
 

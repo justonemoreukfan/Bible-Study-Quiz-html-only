@@ -1,5 +1,4 @@
-# Proverbs 21 Study Questions (KJV)
-## Verses 1-31
+﻿# Proverbs 21 Study Questions (KJV)
 
 ---
 

@@ -1,4 +1,4 @@
-# Proverbs 29 Study Questions (KJV)
+﻿# Proverbs 29 Study Questions (KJV)
 
 ---
 

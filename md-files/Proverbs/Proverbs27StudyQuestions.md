@@ -1,4 +1,4 @@
-# Proverbs 27 Study Questions (KJV)
+﻿# Proverbs 27 Study Questions (KJV)
 
 ---
 

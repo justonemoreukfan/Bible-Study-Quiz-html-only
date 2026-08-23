@@ -1,4 +1,4 @@
-# Proverbs 24 Study Questions (KJV)
+﻿# Proverbs 24 Study Questions (KJV)
 
 ---
 

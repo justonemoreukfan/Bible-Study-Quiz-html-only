@@ -1,4 +1,4 @@
-# Proverbs 22 Study Questions (KJV)
+﻿# Proverbs 22 Study Questions (KJV)
 
 ---
 
