@@ -1,8 +1,12 @@
 Create a Bible study guide from the KJV (King James Version) for BOOK CHAPTER.
 
+Source location requirement:
+- Use only the KJV source text from md-files/kjv-markdown.
+- Do not use any other translation or outside source.
+
 Requirements:
 
-1. Use ONLY the KJV Bible text as the source.
+1. Use ONLY the KJV Bible text from md-files/kjv-markdown as the source.
 2. Create exactly 3 questions for EVERY verse in the chapter.
 3. Questions should be simple, direct, and based only on the wording of the verse.
 4. Do not create opinion, application, or doctrinal questions.

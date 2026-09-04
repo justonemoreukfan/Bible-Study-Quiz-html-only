@@ -29,6 +29,7 @@ bible-quest/
   AI-Prompt.txt
   HELP.md
   md-files/
+    kjv-markdown/
     Genesis/
     Exodus/
     ...
@@ -42,6 +43,10 @@ bible-quest/
 ```
 
 Each Bible book now has its own folder under `md-files`, even if that book folder is currently empty.
+
+## KJV source folder
+- The KJV source text used for generating study questions is stored in `md-files/kjv-markdown`.
+- When AI is used to create questions, it should use `md-files/kjv-markdown` as the source.
 
 ## Quick start
 1. Clone or download this repository.
@@ -88,10 +93,11 @@ Naming reminders:
 How to use it:
 1. Copy the full prompt text from `AI-Prompt.txt`.
 2. Replace BOOK CHAPTER with a target chapter, for example Proverbs 24.
-3. Send the prompt to your AI tool.
-4. Save the generated markdown file into the correct book folder under `md-files`.
-5. Example: `md-files/Proverbs/Proverbs24StudyQuestions.md`.
-6. Verify that the file has exactly 3 questions per verse and consecutive numbering before using it.
+3. Ensure the AI has access to `md-files/kjv-markdown` and use only that folder as source text.
+4. Send the prompt to your AI tool.
+5. Save the generated markdown file into the correct book folder under `md-files`.
+6. Example: `md-files/Proverbs/Proverbs24StudyQuestions.md`.
+7. Verify that the file has exactly 3 questions per verse and consecutive numbering before using it.
 
 ## Security and privacy notes
 - The app runs entirely in your browser.

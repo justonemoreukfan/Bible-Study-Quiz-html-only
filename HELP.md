@@ -61,7 +61,12 @@ That is why the app uses a folder picker and waits for you to click Upload.
 ## File overview
 - `index.html`: Entire app (UI, parser, quiz logic).
 - `md-files/`: Study content markdown files organized by one folder per Bible book.
+- `md-files/kjv-markdown/`: KJV source markdown files used when generating new study-question files with AI.
 - `AI-Prompt.txt`: Prompt template used to generate chapter questions.
+
+## KJV source requirement for AI
+- When AI is used to create questions, use only the KJV source text from `md-files/kjv-markdown`.
+- Do not use other Bible translations as source material.
 
 ## Book folder organization
 The `md-files` directory now includes a folder for each book of the Bible.
@@ -93,9 +98,10 @@ Reminder:
 How to use it:
 1. Open `AI-Prompt.txt`.
 2. Replace BOOK CHAPTER with your target chapter, for example Proverbs 25.
-3. Submit the prompt in your AI assistant.
-4. Save the output markdown file inside the correct book folder under `md-files`.
-5. Example: `md-files/Proverbs/Proverbs25StudyQuestions.md`.
-6. Confirm question numbering is consecutive and each verse has 3 questions.
+3. Ensure your AI uses only `md-files/kjv-markdown` as source text.
+4. Submit the prompt in your AI assistant.
+5. Save the output markdown file inside the correct book folder under `md-files`.
+6. Example: `md-files/Proverbs/Proverbs25StudyQuestions.md`.
+7. Confirm question numbering is consecutive and each verse has 3 questions.
 
 
