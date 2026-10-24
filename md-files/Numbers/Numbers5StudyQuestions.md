@@ -1,0 +1,544 @@
+# Numbers 5 Study Questions (KJV)
+
+---
+
+### Numbers 5:1
+**Q1. What is stated in verse 1?**  
+**Answer:** And the LORD spake unto Moses, saying,  
+**Verse:** Numbers 5:1
+
+**Q2. According to Numbers 5:1, what is recorded?**  
+**Answer:** And the LORD spake unto Moses, saying,  
+**Verse:** Numbers 5:1
+
+**Q3. Fill in the truth from Numbers 5:1:**  
+**Answer:** And the LORD spake unto Moses, saying,  
+**Verse:** Numbers 5:1
+
+---
+
+### Numbers 5:2
+**Q1. What is stated in verse 2?**  
+**Answer:** Command the children of Israel, that they put out of the camp every leper, and every one that hath an issue, and whosoever is defiled by the dead:  
+**Verse:** Numbers 5:2
+
+**Q2. According to Numbers 5:2, what is recorded?**  
+**Answer:** Command the children of Israel, that they put out of the camp every leper, and every one that hath an issue, and whosoever is defiled by the dead:  
+**Verse:** Numbers 5:2
+
+**Q3. Fill in the truth from Numbers 5:2:**  
+**Answer:** Command the children of Israel, that they put out of the camp every leper, and every one that hath an issue, and whosoever is defiled by the dead:  
+**Verse:** Numbers 5:2
+
+---
+
+### Numbers 5:3
+**Q1. What is stated in verse 3?**  
+**Answer:** Both male and female shall ye put out, without the camp shall ye put them; that they defile not their camps, in the midst whereof I dwell.  
+**Verse:** Numbers 5:3
+
+**Q2. According to Numbers 5:3, what is recorded?**  
+**Answer:** Both male and female shall ye put out, without the camp shall ye put them; that they defile not their camps, in the midst whereof I dwell.  
+**Verse:** Numbers 5:3
+
+**Q3. Fill in the truth from Numbers 5:3:**  
+**Answer:** Both male and female shall ye put out, without the camp shall ye put them; that they defile not their camps, in the midst whereof I dwell.  
+**Verse:** Numbers 5:3
+
+---
+
+### Numbers 5:4
+**Q1. What is stated in verse 4?**  
+**Answer:** And the children of Israel did so, and put them out without the camp: as the LORD spake unto Moses, so did the children of Israel.  
+**Verse:** Numbers 5:4
+
+**Q2. According to Numbers 5:4, what is recorded?**  
+**Answer:** And the children of Israel did so, and put them out without the camp: as the LORD spake unto Moses, so did the children of Israel.  
+**Verse:** Numbers 5:4
+
+**Q3. Fill in the truth from Numbers 5:4:**  
+**Answer:** And the children of Israel did so, and put them out without the camp: as the LORD spake unto Moses, so did the children of Israel.  
+**Verse:** Numbers 5:4
+
+---
+
+### Numbers 5:5
+**Q1. What is stated in verse 5?**  
+**Answer:** And the LORD spake unto Moses, saying,  
+**Verse:** Numbers 5:5
+
+**Q2. According to Numbers 5:5, what is recorded?**  
+**Answer:** And the LORD spake unto Moses, saying,  
+**Verse:** Numbers 5:5
+
+**Q3. Fill in the truth from Numbers 5:5:**  
+**Answer:** And the LORD spake unto Moses, saying,  
+**Verse:** Numbers 5:5
+
+---
+
+### Numbers 5:6
+**Q1. What is stated in verse 6?**  
+**Answer:** Speak unto the children of Israel, When a man or woman shall commit any sin that men commit, to do a trespass against the LORD, and that person be guilty;  
+**Verse:** Numbers 5:6
+
+**Q2. According to Numbers 5:6, what is recorded?**  
+**Answer:** Speak unto the children of Israel, When a man or woman shall commit any sin that men commit, to do a trespass against the LORD, and that person be guilty;  
+**Verse:** Numbers 5:6
+
+**Q3. Fill in the truth from Numbers 5:6:**  
+**Answer:** Speak unto the children of Israel, When a man or woman shall commit any sin that men commit, to do a trespass against the LORD, and that person be guilty;  
+**Verse:** Numbers 5:6
+
+---
+
+### Numbers 5:7
+**Q1. What is stated in verse 7?**  
+**Answer:** Then they shall confess their sin which they have done: and he shall recompense his trespass with the principal thereof, and add unto it the fifth
+part thereof, and give
+it unto
+him against whom he hath trespassed.  
+**Verse:** Numbers 5:7
+
+**Q2. According to Numbers 5:7, what is recorded?**  
+**Answer:** Then they shall confess their sin which they have done: and he shall recompense his trespass with the principal thereof, and add unto it the fifth
+part thereof, and give
+it unto
+him against whom he hath trespassed.  
+**Verse:** Numbers 5:7
+
+**Q3. Fill in the truth from Numbers 5:7:**  
+**Answer:** Then they shall confess their sin which they have done: and he shall recompense his trespass with the principal thereof, and add unto it the fifth
+part thereof, and give
+it unto
+him against whom he hath trespassed.  
+**Verse:** Numbers 5:7
+
+---
+
+### Numbers 5:8
+**Q1. What is stated in verse 8?**  
+**Answer:** But if the man have no kinsman to recompense the trespass unto, let the trespass be recompensed unto the LORD,
+even to the priest; beside the ram of the atonement, whereby an atonement shall be made for him.  
+**Verse:** Numbers 5:8
+
+**Q2. According to Numbers 5:8, what is recorded?**  
+**Answer:** But if the man have no kinsman to recompense the trespass unto, let the trespass be recompensed unto the LORD,
+even to the priest; beside the ram of the atonement, whereby an atonement shall be made for him.  
+**Verse:** Numbers 5:8
+
+**Q3. Fill in the truth from Numbers 5:8:**  
+**Answer:** But if the man have no kinsman to recompense the trespass unto, let the trespass be recompensed unto the LORD,
+even to the priest; beside the ram of the atonement, whereby an atonement shall be made for him.  
+**Verse:** Numbers 5:8
+
+---
+
+### Numbers 5:9
+**Q1. What is stated in verse 9?**  
+**Answer:** And every offering of all the holy things of the children of Israel, which they bring unto the priest, shall be his.  
+**Verse:** Numbers 5:9
+
+**Q2. According to Numbers 5:9, what is recorded?**  
+**Answer:** And every offering of all the holy things of the children of Israel, which they bring unto the priest, shall be his.  
+**Verse:** Numbers 5:9
+
+**Q3. Fill in the truth from Numbers 5:9:**  
+**Answer:** And every offering of all the holy things of the children of Israel, which they bring unto the priest, shall be his.  
+**Verse:** Numbers 5:9
+
+---
+
+### Numbers 5:10
+**Q1. What is stated in verse 10?**  
+**Answer:** And every man’s hallowed things shall be his: whatsoever any man giveth the priest, it shall be his.  
+**Verse:** Numbers 5:10
+
+**Q2. According to Numbers 5:10, what is recorded?**  
+**Answer:** And every man’s hallowed things shall be his: whatsoever any man giveth the priest, it shall be his.  
+**Verse:** Numbers 5:10
+
+**Q3. Fill in the truth from Numbers 5:10:**  
+**Answer:** And every man’s hallowed things shall be his: whatsoever any man giveth the priest, it shall be his.  
+**Verse:** Numbers 5:10
+
+---
+
+### Numbers 5:11
+**Q1. What is stated in verse 11?**  
+**Answer:** And the LORD spake unto Moses, saying,  
+**Verse:** Numbers 5:11
+
+**Q2. According to Numbers 5:11, what is recorded?**  
+**Answer:** And the LORD spake unto Moses, saying,  
+**Verse:** Numbers 5:11
+
+**Q3. Fill in the truth from Numbers 5:11:**  
+**Answer:** And the LORD spake unto Moses, saying,  
+**Verse:** Numbers 5:11
+
+---
+
+### Numbers 5:12
+**Q1. What is stated in verse 12?**  
+**Answer:** Speak unto the children of Israel, and say unto them, If any man’s wife go aside, and commit a trespass against him,  
+**Verse:** Numbers 5:12
+
+**Q2. According to Numbers 5:12, what is recorded?**  
+**Answer:** Speak unto the children of Israel, and say unto them, If any man’s wife go aside, and commit a trespass against him,  
+**Verse:** Numbers 5:12
+
+**Q3. Fill in the truth from Numbers 5:12:**  
+**Answer:** Speak unto the children of Israel, and say unto them, If any man’s wife go aside, and commit a trespass against him,  
+**Verse:** Numbers 5:12
+
+---
+
+### Numbers 5:13
+**Q1. What is stated in verse 13?**  
+**Answer:** And a man lie with her carnally, and it be hid from the eyes of her husband, and be kept close, and she be defiled, and
+there be no witness against her, neither she be taken
+with the manner;  
+**Verse:** Numbers 5:13
+
+**Q2. According to Numbers 5:13, what is recorded?**  
+**Answer:** And a man lie with her carnally, and it be hid from the eyes of her husband, and be kept close, and she be defiled, and
+there be no witness against her, neither she be taken
+with the manner;  
+**Verse:** Numbers 5:13
+
+**Q3. Fill in the truth from Numbers 5:13:**  
+**Answer:** And a man lie with her carnally, and it be hid from the eyes of her husband, and be kept close, and she be defiled, and
+there be no witness against her, neither she be taken
+with the manner;  
+**Verse:** Numbers 5:13
+
+---
+
+### Numbers 5:14
+**Q1. What is stated in verse 14?**  
+**Answer:** And the spirit of jealousy come upon him, and he be jealous of his wife, and she be defiled: or if the spirit of jealousy come upon him, and he be jealous of his wife, and she be not defiled:  
+**Verse:** Numbers 5:14
+
+**Q2. According to Numbers 5:14, what is recorded?**  
+**Answer:** And the spirit of jealousy come upon him, and he be jealous of his wife, and she be defiled: or if the spirit of jealousy come upon him, and he be jealous of his wife, and she be not defiled:  
+**Verse:** Numbers 5:14
+
+**Q3. Fill in the truth from Numbers 5:14:**  
+**Answer:** And the spirit of jealousy come upon him, and he be jealous of his wife, and she be defiled: or if the spirit of jealousy come upon him, and he be jealous of his wife, and she be not defiled:  
+**Verse:** Numbers 5:14
+
+---
+
+### Numbers 5:15
+**Q1. What is stated in verse 15?**  
+**Answer:** Then shall the man bring his wife unto the priest, and he shall bring her offering for her, the tenth
+part of an ephah of barley meal; he shall pour no oil upon it, nor put frankincense thereon; for it
+is
+ an offering of jealousy, an offering of memorial, bringing iniquity to remembrance.  
+**Verse:** Numbers 5:15
+
+**Q2. According to Numbers 5:15, what is recorded?**  
+**Answer:** Then shall the man bring his wife unto the priest, and he shall bring her offering for her, the tenth
+part of an ephah of barley meal; he shall pour no oil upon it, nor put frankincense thereon; for it
+is
+ an offering of jealousy, an offering of memorial, bringing iniquity to remembrance.  
+**Verse:** Numbers 5:15
+
+**Q3. Fill in the truth from Numbers 5:15:**  
+**Answer:** Then shall the man bring his wife unto the priest, and he shall bring her offering for her, the tenth
+part of an ephah of barley meal; he shall pour no oil upon it, nor put frankincense thereon; for it
+is
+ an offering of jealousy, an offering of memorial, bringing iniquity to remembrance.  
+**Verse:** Numbers 5:15
+
+---
+
+### Numbers 5:16
+**Q1. What is stated in verse 16?**  
+**Answer:** And the priest shall bring her near, and set her before the LORD:  
+**Verse:** Numbers 5:16
+
+**Q2. According to Numbers 5:16, what is recorded?**  
+**Answer:** And the priest shall bring her near, and set her before the LORD:  
+**Verse:** Numbers 5:16
+
+**Q3. Fill in the truth from Numbers 5:16:**  
+**Answer:** And the priest shall bring her near, and set her before the LORD:  
+**Verse:** Numbers 5:16
+
+---
+
+### Numbers 5:17
+**Q1. What is stated in verse 17?**  
+**Answer:** And the priest shall take holy water in an earthen vessel; and of the dust that is in the floor of the tabernacle the priest shall take, and put
+it into the water:  
+**Verse:** Numbers 5:17
+
+**Q2. According to Numbers 5:17, what is recorded?**  
+**Answer:** And the priest shall take holy water in an earthen vessel; and of the dust that is in the floor of the tabernacle the priest shall take, and put
+it into the water:  
+**Verse:** Numbers 5:17
+
+**Q3. Fill in the truth from Numbers 5:17:**  
+**Answer:** And the priest shall take holy water in an earthen vessel; and of the dust that is in the floor of the tabernacle the priest shall take, and put
+it into the water:  
+**Verse:** Numbers 5:17
+
+---
+
+### Numbers 5:18
+**Q1. What is stated in verse 18?**  
+**Answer:** And the priest shall set the woman before the LORD, and uncover the woman’s head, and put the offering of memorial in her hands, which
+is
+ the jealousy offering: and the priest shall have in his hand the bitter water that causeth the curse:  
+**Verse:** Numbers 5:18
+
+**Q2. According to Numbers 5:18, what is recorded?**  
+**Answer:** And the priest shall set the woman before the LORD, and uncover the woman’s head, and put the offering of memorial in her hands, which
+is
+ the jealousy offering: and the priest shall have in his hand the bitter water that causeth the curse:  
+**Verse:** Numbers 5:18
+
+**Q3. Fill in the truth from Numbers 5:18:**  
+**Answer:** And the priest shall set the woman before the LORD, and uncover the woman’s head, and put the offering of memorial in her hands, which
+is
+ the jealousy offering: and the priest shall have in his hand the bitter water that causeth the curse:  
+**Verse:** Numbers 5:18
+
+---
+
+### Numbers 5:19
+**Q1. What is stated in verse 19?**  
+**Answer:** And the priest shall charge her by an oath, and say unto the woman, If no man have lain with thee, and if thou hast not gone aside to uncleanness
+with another instead of thy husband, be thou free from this bitter water that causeth the curse:  
+**Verse:** Numbers 5:19
+
+**Q2. According to Numbers 5:19, what is recorded?**  
+**Answer:** And the priest shall charge her by an oath, and say unto the woman, If no man have lain with thee, and if thou hast not gone aside to uncleanness
+with another instead of thy husband, be thou free from this bitter water that causeth the curse:  
+**Verse:** Numbers 5:19
+
+**Q3. Fill in the truth from Numbers 5:19:**  
+**Answer:** And the priest shall charge her by an oath, and say unto the woman, If no man have lain with thee, and if thou hast not gone aside to uncleanness
+with another instead of thy husband, be thou free from this bitter water that causeth the curse:  
+**Verse:** Numbers 5:19
+
+---
+
+### Numbers 5:20
+**Q1. What is stated in verse 20?**  
+**Answer:** But if thou hast gone aside
+to another instead of thy husband, and if thou be defiled, and some man have lain with thee beside thine husband:  
+**Verse:** Numbers 5:20
+
+**Q2. According to Numbers 5:20, what is recorded?**  
+**Answer:** But if thou hast gone aside
+to another instead of thy husband, and if thou be defiled, and some man have lain with thee beside thine husband:  
+**Verse:** Numbers 5:20
+
+**Q3. Fill in the truth from Numbers 5:20:**  
+**Answer:** But if thou hast gone aside
+to another instead of thy husband, and if thou be defiled, and some man have lain with thee beside thine husband:  
+**Verse:** Numbers 5:20
+
+---
+
+### Numbers 5:21
+**Q1. What is stated in verse 21?**  
+**Answer:** Then the priest shall charge the woman with an oath of cursing, and the priest shall say unto the woman, The LORD make thee a curse and an oath among thy people, when the LORD doth make thy thigh to rot, and thy belly to swell;  
+**Verse:** Numbers 5:21
+
+**Q2. According to Numbers 5:21, what is recorded?**  
+**Answer:** Then the priest shall charge the woman with an oath of cursing, and the priest shall say unto the woman, The LORD make thee a curse and an oath among thy people, when the LORD doth make thy thigh to rot, and thy belly to swell;  
+**Verse:** Numbers 5:21
+
+**Q3. Fill in the truth from Numbers 5:21:**  
+**Answer:** Then the priest shall charge the woman with an oath of cursing, and the priest shall say unto the woman, The LORD make thee a curse and an oath among thy people, when the LORD doth make thy thigh to rot, and thy belly to swell;  
+**Verse:** Numbers 5:21
+
+---
+
+### Numbers 5:22
+**Q1. What is stated in verse 22?**  
+**Answer:** And this water that causeth the curse shall go into thy bowels, to make
+thy belly to swell, and
+thy thigh to rot: And the woman shall say, Amen, amen.  
+**Verse:** Numbers 5:22
+
+**Q2. According to Numbers 5:22, what is recorded?**  
+**Answer:** And this water that causeth the curse shall go into thy bowels, to make
+thy belly to swell, and
+thy thigh to rot: And the woman shall say, Amen, amen.  
+**Verse:** Numbers 5:22
+
+**Q3. Fill in the truth from Numbers 5:22:**  
+**Answer:** And this water that causeth the curse shall go into thy bowels, to make
+thy belly to swell, and
+thy thigh to rot: And the woman shall say, Amen, amen.  
+**Verse:** Numbers 5:22
+
+---
+
+### Numbers 5:23
+**Q1. What is stated in verse 23?**  
+**Answer:** And the priest shall write these curses in a book, and he shall blot
+them out with the bitter water:  
+**Verse:** Numbers 5:23
+
+**Q2. According to Numbers 5:23, what is recorded?**  
+**Answer:** And the priest shall write these curses in a book, and he shall blot
+them out with the bitter water:  
+**Verse:** Numbers 5:23
+
+**Q3. Fill in the truth from Numbers 5:23:**  
+**Answer:** And the priest shall write these curses in a book, and he shall blot
+them out with the bitter water:  
+**Verse:** Numbers 5:23
+
+---
+
+### Numbers 5:24
+**Q1. What is stated in verse 24?**  
+**Answer:** And he shall cause the woman to drink the bitter water that causeth the curse: and the water that causeth the curse shall enter into her,
+and become bitter.  
+**Verse:** Numbers 5:24
+
+**Q2. According to Numbers 5:24, what is recorded?**  
+**Answer:** And he shall cause the woman to drink the bitter water that causeth the curse: and the water that causeth the curse shall enter into her,
+and become bitter.  
+**Verse:** Numbers 5:24
+
+**Q3. Fill in the truth from Numbers 5:24:**  
+**Answer:** And he shall cause the woman to drink the bitter water that causeth the curse: and the water that causeth the curse shall enter into her,
+and become bitter.  
+**Verse:** Numbers 5:24
+
+---
+
+### Numbers 5:25
+**Q1. What is stated in verse 25?**  
+**Answer:** Then the priest shall take the jealousy offering out of the woman’s hand, and shall wave the offering before the LORD, and offer it upon the altar:  
+**Verse:** Numbers 5:25
+
+**Q2. According to Numbers 5:25, what is recorded?**  
+**Answer:** Then the priest shall take the jealousy offering out of the woman’s hand, and shall wave the offering before the LORD, and offer it upon the altar:  
+**Verse:** Numbers 5:25
+
+**Q3. Fill in the truth from Numbers 5:25:**  
+**Answer:** Then the priest shall take the jealousy offering out of the woman’s hand, and shall wave the offering before the LORD, and offer it upon the altar:  
+**Verse:** Numbers 5:25
+
+---
+
+### Numbers 5:26
+**Q1. What is stated in verse 26?**  
+**Answer:** And the priest shall take an handful of the offering,
+even
+ the memorial thereof, and burn
+it upon the altar, and afterward shall cause the woman to drink the water.  
+**Verse:** Numbers 5:26
+
+**Q2. According to Numbers 5:26, what is recorded?**  
+**Answer:** And the priest shall take an handful of the offering,
+even
+ the memorial thereof, and burn
+it upon the altar, and afterward shall cause the woman to drink the water.  
+**Verse:** Numbers 5:26
+
+**Q3. Fill in the truth from Numbers 5:26:**  
+**Answer:** And the priest shall take an handful of the offering,
+even
+ the memorial thereof, and burn
+it upon the altar, and afterward shall cause the woman to drink the water.  
+**Verse:** Numbers 5:26
+
+---
+
+### Numbers 5:27
+**Q1. What is stated in verse 27?**  
+**Answer:** And when he hath made her to drink the water, then it shall come to pass,
+that, if she be defiled, and have done trespass against her husband, that the water that causeth the curse shall enter into her,
+and become bitter, and her belly shall swell, and her thigh shall rot: and the woman shall be a curse among her people.  
+**Verse:** Numbers 5:27
+
+**Q2. According to Numbers 5:27, what is recorded?**  
+**Answer:** And when he hath made her to drink the water, then it shall come to pass,
+that, if she be defiled, and have done trespass against her husband, that the water that causeth the curse shall enter into her,
+and become bitter, and her belly shall swell, and her thigh shall rot: and the woman shall be a curse among her people.  
+**Verse:** Numbers 5:27
+
+**Q3. Fill in the truth from Numbers 5:27:**  
+**Answer:** And when he hath made her to drink the water, then it shall come to pass,
+that, if she be defiled, and have done trespass against her husband, that the water that causeth the curse shall enter into her,
+and become bitter, and her belly shall swell, and her thigh shall rot: and the woman shall be a curse among her people.  
+**Verse:** Numbers 5:27
+
+---
+
+### Numbers 5:28
+**Q1. What is stated in verse 28?**  
+**Answer:** And if the woman be not defiled, but be clean; then she shall be free, and shall conceive seed.  
+**Verse:** Numbers 5:28
+
+**Q2. According to Numbers 5:28, what is recorded?**  
+**Answer:** And if the woman be not defiled, but be clean; then she shall be free, and shall conceive seed.  
+**Verse:** Numbers 5:28
+
+**Q3. Fill in the truth from Numbers 5:28:**  
+**Answer:** And if the woman be not defiled, but be clean; then she shall be free, and shall conceive seed.  
+**Verse:** Numbers 5:28
+
+---
+
+### Numbers 5:29
+**Q1. What is stated in verse 29?**  
+**Answer:** This
+is the law of jealousies, when a wife goeth aside
+to another instead of her husband, and is defiled;  
+**Verse:** Numbers 5:29
+
+**Q2. According to Numbers 5:29, what is recorded?**  
+**Answer:** This
+is the law of jealousies, when a wife goeth aside
+to another instead of her husband, and is defiled;  
+**Verse:** Numbers 5:29
+
+**Q3. Fill in the truth from Numbers 5:29:**  
+**Answer:** This
+is the law of jealousies, when a wife goeth aside
+to another instead of her husband, and is defiled;  
+**Verse:** Numbers 5:29
+
+---
+
+### Numbers 5:30
+**Q1. What is stated in verse 30?**  
+**Answer:** Or when the spirit of jealousy cometh upon him, and he be jealous over his wife, and shall set the woman before the LORD, and the priest shall execute upon her all this law.  
+**Verse:** Numbers 5:30
+
+**Q2. According to Numbers 5:30, what is recorded?**  
+**Answer:** Or when the spirit of jealousy cometh upon him, and he be jealous over his wife, and shall set the woman before the LORD, and the priest shall execute upon her all this law.  
+**Verse:** Numbers 5:30
+
+**Q3. Fill in the truth from Numbers 5:30:**  
+**Answer:** Or when the spirit of jealousy cometh upon him, and he be jealous over his wife, and shall set the woman before the LORD, and the priest shall execute upon her all this law.  
+**Verse:** Numbers 5:30
+
+---
+
+### Numbers 5:31
+**Q1. What is stated in verse 31?**  
+**Answer:** Then shall the man be guiltless from iniquity, and this woman shall bear her iniquity.  
+**Verse:** Numbers 5:31
+
+**Q2. According to Numbers 5:31, what is recorded?**  
+**Answer:** Then shall the man be guiltless from iniquity, and this woman shall bear her iniquity.  
+**Verse:** Numbers 5:31
+
+**Q3. Fill in the truth from Numbers 5:31:**  
+**Answer:** Then shall the man be guiltless from iniquity, and this woman shall bear her iniquity.  
+**Verse:** Numbers 5:31
+
+---
+
